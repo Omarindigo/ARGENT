@@ -1,0 +1,80 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# User-specific config (contains API paths, MCP commands, local paths)
+.opencode/
+.memopalace/
+
+# Build output
+node_modules/
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.sqlite3-journal
+
+# Node
+*.bun-build
+tsconfig.tsbuildinfo
+.bun/
+ts-dist/
+dist/
+.sst/
+.turbo/
+
+# Lock files (keep if needed for reproducibility)
+# bun.lock
+# uv.lock
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Misc
+*.log
+logs/
+tmp/
+target/
+playground/
+
+# Test files at root
+test-*.json
+
+# Local dev files
+opencode-dev
+UPCOMING_CHANGELOG.md
+result/
+refs/
+Session.vim
+a.out
+.scripts/
+.destination/
+.destination*/
+.destination-*/
+.direnv/
+.worktrees/
+.serena/
+.serena
+
+# GitHub Actions (optional - uncomment if you don't want workflows in combined repo)
+# .github/
